@@ -1,3 +1,5 @@
+#include "matrice.h"
+
 // costruttore
 matrice::matrice(int c, int r){
   colonne = c;
