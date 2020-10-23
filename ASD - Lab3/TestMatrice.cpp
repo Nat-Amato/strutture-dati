@@ -1,5 +1,8 @@
 #include "matrice.h"
 
-
-
-main
+int main() {
+  
+  
+  
+	return 0;
+}
