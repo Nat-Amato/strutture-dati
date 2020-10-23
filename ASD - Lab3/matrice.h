@@ -1,3 +1,6 @@
+#ifndef _MATRICE
+#define _MATRICE
+
 definire il tipo tipoelem
 
 	typedef double tipoelem;
@@ -14,3 +17,5 @@ class matrice {
     int colonne;
     tipoelem **elementi;
 };
+
+#endif /* _MATRICE */
