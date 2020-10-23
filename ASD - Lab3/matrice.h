@@ -1,6 +1,8 @@
 #ifndef _MATRICE
 #define _MATRICE
 
+using namespace std;
+
 definire il tipo tipoelem
 
 	typedef double tipoelem;
