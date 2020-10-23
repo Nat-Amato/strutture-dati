@@ -39,3 +39,11 @@ class matrice {
 };
 
 #endif /* _MATRICE */
+
+
+
+
+
+/* Q: il metodo prodottoScalare deve cambiare i valori della matrice oppure deve returnare un'altra matrice? */
+/* A: cambia solo i valori della matrice */
+
