@@ -12,17 +12,24 @@ definire la classe matrice
 class matrice {
 
   public:
-    matrice(int, int); /* costruttore */
+  
+    matrice(int, int); 					/* costruttore */
+    
     matrice(const matrice& M){
-	~matrice(); 
 	matrice(M.righe, M.colonne);
 	//...	
-    }/* costruttore di copia */  
+    }							/* costruttore di copia */  
     
-    matrice& operator=(const matrice& M);/* operatore di assegnamento */
-    ~matrice();   /* distruttore */
+    matrice& operator=(const matrice& M){
+    	//come per il costruttore di copia
+	//...
+    	return *this;
+    }							/* operatore di assegnamento */
+    
+    ~matrice();  					 /* distruttore */
     
     tipoelem leggimatrice(int, int);
+    
     void scrivimatrice(int, int, tipoelem);
     
   private:
