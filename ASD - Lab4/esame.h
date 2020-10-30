@@ -8,10 +8,16 @@
    esame();
    esame(string);
    esame(string, int);
-   // ... da completare ... 
+   	esame(string, int);
+	string getEsame();
+	void setEsame(string n);
+	int getVoto();
+	void setVoto(int v);
+	bool isSostenuto();
  private:
    string nome;
-   // ... da completare ... 
+	 bool sostenuto;
+	 int voto;
  };
 
 #endif // _ESAME_H 
