@@ -1,5 +1,36 @@
+class studente{
+ public:
+	studente();
+	void setMatricola(string);
+	void setNome(string );
+	string getMatricola();
+	string getNome();
 
-    metodi:
+	void setEsame(int, int);
+	double getMedia();
+
+ private:
+	esame esami;
+	string matricola;
+	string nome;
+};
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+metodi:
         costruttore di default studente(): imposta i nomi di default dei 5 esami e i rispettivi flag sostenuto a false
         costruttore studente(nome1, nome2, nome3, nome4, nome5): imposta in nomi dei 5 esami usando i parametri nome1, ... e i rispettivi flag sostenuto a false
         setMatricola, setNome, getMatricola, getNome
