@@ -1,23 +1,24 @@
- #ifndef _ESAME_H
- #define _ESAME_H
+#ifndef _ESAME_H
+#define _ESAME_H
  
- #include 
+#include <string>
 
- class esame{
- public:
-   esame();
-   esame(string);
-   esame(string, int);
-   	esame(string, int);
+using namespace std;
+
+class esame{
+public:
+	esame();
+	esame(string);
+	esame(string, int);
 	string getEsame();
-	void setEsame(string n);
+	void setEsame(string);
 	int getVoto();
-	void setVoto(int v);
+	void setVoto(int);
 	bool isSostenuto();
- private:
-   string nome;
-	 bool sostenuto;
-	 int voto;
- };
+private:
+	string nome;
+	bool sostenuto = false;
+	int voto;
+};
 
 #endif // _ESAME_H 
